@@ -5,3 +5,44 @@
    
 }
 
+.hf-container {
+    max-width: $maxWidth;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.site-logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav{
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 2em;
+        height: 100%;
+        padding: 0.2em 0.6em;
+        border-radius: 0.2em;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    a:hover, .current-page a{
+        background-color: #bfdaef;
+        color: #b90000;
+    }
+    .current-page a{
+        font-style: normal;
+    }
+}
