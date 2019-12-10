@@ -2,6 +2,8 @@
 @import "_reset.scss";
 @import "_header-styles.scss";
 @import "_footer-styles.scss";
+@import "_responsive.scss";
+@import "_gallery.scss";
 
 
 .site {
@@ -13,6 +15,7 @@
     font-size: 1.1em;
 
     &-main{
+        align-items: center;
         min-height: calc(100vh - 170px);
         width: 100%;
     }
