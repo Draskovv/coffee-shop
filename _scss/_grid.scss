@@ -4,7 +4,6 @@ $grid-columns: 12;
     display: grid;
     grid-template-columns: repeat($grid-columns, 1fr);
     grid-template-rows: auto 1fr auto;
-    // align-items: start;
     align-content: start;
     grid-gap: 2em;
     min-height: 100vh;

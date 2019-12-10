@@ -22,7 +22,7 @@
         position: relative;
         overflow: hidden;
         border-radius: 50px;
-        border: 2px solid rgb(197, 9, 9);
+        border: 2px solid rgb(153, 6, 6);
         box-shadow: 0 0 1em 0 rgba(black, 0.2);
 
         &:before {
@@ -51,23 +51,15 @@
     a {
         display: block;
         position: absolute;
-        top: 0; left: 0; right: 0; bottom: 0;
-
-        &:before {
-            display: block;
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            z-index: 5;
-        
-            box-shadow: 0 0 0 0.5em white inset;
-        }
+        top: 0; left: 0; right: 0; bottom: 0;   
     }
 
     img {
+        object-fit: cover !important;
+
         display: block;
         position: absolute;
-        width: auto;
+        width: 100%;
         height: 100%;
         top: 50%; left: 50%;
         transform: translate(-50%, -50%);
