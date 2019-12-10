@@ -1,0 +1,10 @@
+.home{
+    display: block;
+    
+    
+}
+
+.home > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
