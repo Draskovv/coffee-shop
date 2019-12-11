@@ -1,10 +1,10 @@
 .gallery {
     justify-content: space-evenly;
     height: 70%;
-    padding: 10em;
+    padding: 1em;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-flow: dense;
     grid-gap: 1em;
 

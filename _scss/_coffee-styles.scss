@@ -1,0 +1,29 @@
+.coffees{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    ul{
+        width: 80% ;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em;
+        li{
+            padding: 1em;
+            margin: 0.5em;
+            border: 2px solid rgb(153, 6, 6);
+            border-radius: 20%;
+            font-size: 1.5em;
+        }
+    }
+
+    li:hover, li{
+        background-color: rgba(187, 14, 14, 0.5);//#bfdaef;
+        color: black;
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+    }
+}

@@ -4,3 +4,12 @@ title: Coffee
 permalink: /coffee/
 order: 1
 ---
+
+<section class="coffees">
+    <ul class="coffee-list">
+        {% assign siteCollection = site.data.coffee.coffees %}
+        {% for coffee in siteCollection %}
+            <li class="item"><a><img src="{{coffee.img}}"><p>{{coffee.title}}</p></a></li>
+        {% endfor %}
+    </ul>
+</section>
