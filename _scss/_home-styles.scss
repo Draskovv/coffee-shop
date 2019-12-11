@@ -1,10 +1,45 @@
 .home{
     display: block;
+   
     
-    
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 5em;
+    }
+
+    li{
+        align-content: center;
+        height: 100%;
+    }
+
+    div{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        border: 5px solid rgb(158, 3, 3);
+        border-radius: 20%;
+        overflow: hidden;
+        
+       
+    }
+
+    img{
+        display: block;
+        width: 100%;
+        height: 40em;   
+    }
+
+    span{
+        width: 100%;
+        height: 10em;
+    }
+
+    p{
+        font-size: 3em;
+        text-align: center;
+        background-color: rgb(158, 3, 3);
+       
+    }
 }
 
-.home > ul {
-    display: flex;
-    justify-content: space-evenly;
-}
