@@ -9,7 +9,7 @@ order: 1
     <ul class="coffee-list">
         {% assign siteCollection = site.data.coffee.coffees %}
         {% for coffee in siteCollection %}
-            <li class="item"><a><img src="{{coffee.img}}"><p>{{coffee.title}}</p></a></li>
+            {% include item-template.html%}
         {% endfor %}
     </ul>
 </section>
