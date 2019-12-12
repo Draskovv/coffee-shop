@@ -8,7 +8,7 @@
         flex-wrap: wrap;
         padding: 2em;
         li{
-            padding: 1em;
+            //padding: 0em;
             margin: 0.5em;
             border: 3px solid rgba(0, 0, 0, 0.6);
             border-radius: 20%;
@@ -16,14 +16,27 @@
         }
     }
 
-    li:hover, li{
+    .item{
         background-color: rgba(187, 14, 14, 0.5);//#bfdaef;
         color: black;
+
+        &:hover{
+            background-color: rgba(247, 0, 0, 0.623);
+        }
     }
 
     img{
+        margin: 1em 1em 0em 1em;
         width: 200px;
         height: 200px;
         border-radius: 20%;
+        border: 3px solid rgba(0, 0, 0, 0.6);
+    }
+
+    a{
+        display: block;
+    }
+    p{
+        padding-bottom: 0.5em;
     }
 }

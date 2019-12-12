@@ -6,8 +6,8 @@
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/07/alton-browns-blueberry-buckle/x.jpg"
         },
         {
-            "title" : "Deluxe Coffee Cake",
-            "id" : "deluxe-coffee-cake",
+            "title" : "Deluxe Cake",
+            "id" : "deluxe-cake",
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2017/04/deluxe-coffee-cake/x.jpg"
         },
         {
@@ -16,13 +16,13 @@
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/09/Apple-Poke-Cake/x.jpg"
         },
         {
-            "title" : "Applesauce Coffee Cake",
-            "id" : "applesauce-coffee-cake",
+            "title" : "Applesauce Cake",
+            "id" : "applesauce-cake",
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2014/12/bd3d29a79ccab9112d82f99e2acb4ce1/x.jpg"
         },
         {
-            "title" : "Cardamom Coffee Cake",
-            "id" : "cardamom-coffee-cake",
+            "title" : "Cardamom Cake",
+            "id" : "cardamom-cake",
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2014/12/df6cfc46dcd58cd418bc567d48336c73/x.jpg"
         },
         {
@@ -31,8 +31,8 @@
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/09/Coffee-Cake-Ricardo/x.jpg"
         },
         {
-            "title" : "Blueberry Coffee Cake Muffins",
-            "id" : "blueberry-coffee-cake-muffins",
+            "title" : "Blueberry Muffins",
+            "id" : "blueberry-muffins",
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2015/04/blueberry-coffee-cake-muffins/x.jpg"
         },
         {
@@ -41,13 +41,13 @@
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2014/12/950426250c0a00c499797bfc9448c755/x.jpg"
         },
         {
-            "title" : "Coffee Cake with Chocolate Meringue",
-            "id" : "coffee-cake-with-chocolate-meringue",
-            "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/09/Coffee-Cake-Meringue/x.jpg"
+            "title" : "Raspberry Torte",
+            "id" : "raspberry-torte",
+            "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/10/Raspberry-Dark-Chocolate-Mousse/x.jpg"
         },
         {
-            "title" : "Raspberry Ricotta Buckle",
-            "id" : "raspberry-ricotta-buckle",
+            "title" : "Ricotta Buckle",
+            "id" : "ricotta-buckle",
             "img" : "https://assets.blog.foodnetwork.ca/imageserve/wp-content/uploads/sites/6/2016/07/Raspberry-Ricotta-Buckle/x.jpg"
         }
     ]
