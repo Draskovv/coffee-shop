@@ -4,3 +4,12 @@ title: Cakes
 permalink: /cakes/
 order: 2
 ---
+
+<section class="cakes">
+    <ul class="cake-list">
+        {% assign siteCollection = site.data.cake.cakes %}
+        {% for item in siteCollection %}
+            {% include item-template.html%}
+        {% endfor %}
+    </ul>
+</section>
