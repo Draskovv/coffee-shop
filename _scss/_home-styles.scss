@@ -1,60 +1,79 @@
 .home{
-    display: block;
-   
 
-    
-    ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 5em 0;
+
+    .upper{
         display: flex;
-        flex-direction: column;
-        padding: 5em 0em 5em 0em;
-        
+        justify-content: center;
     }
 
-    .content{
-        display: flex;
-    }
-
-    .content-left{
-        display: inline-block;
-    }
-
-    .content-right{
+    .lower{
         display: flex;
         flex-direction: row-reverse;
-        float: right;
-
+        justify-content: center;
     }
 
-    
-    li{
-        border: 5px solid black;
-        width: 100%;
-    }
-
-    // div{
-    //     width: 70%;
-    //     height: 80%;
-    //     margin: 0 auto;
-    //     border: 3px solid black;
-    //     border-radius: 20%;
-    //     overflow: hidden;
+    // ul{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding: 10em 5em 0 5em;
     // }
+
+    .content1{
+        margin: 2em 2em;
+        border: 2px solid black;
+        border-radius: 240px 0 0 0;
+        overflow: hidden;
+        background-color: rgb(158, 3, 3); 
+        text-align: right;
+    }
+    .content2{
+        margin: 2em 2em;
+        border: 2px solid black;
+        border-radius: 0 240px 0 0;
+        overflow: hidden;
+        background-color: rgb(158, 3, 3); 
+        text-align: left;
+    }
+    .content3{
+        margin: 2em 2em;
+        border: 2px solid black;
+        border-radius: 0 0 240px 0;
+        overflow: hidden;
+        background-color: rgb(158, 3, 3); 
+        text-align: left;
+    }
+    .content4{
+        margin: 2em 2em;
+        border: 2px solid black;
+        border-radius: 0 0 0 240px;
+        overflow: hidden;
+        background-color: rgb(158, 3, 3); 
+        text-align: right;
+    }
+
+    li{
+        display: flex;
+    }
 
     img{
         display: block;
-        width: 300px;
-        height: 300px;   
+        width: 20em;
+        height: 20em;   
     }
+
 
     // span{
     //     width: 100%;
     //     height: 10em;
     // }
 
-    p{
-        font-size: 2em;
-        text-align: center;
-        background-color: rgb(158, 3, 3);       
-    }
+    // p{
+    //     font-size: 2em;
+    //     text-align: center;
+         
+    // }
 }
 

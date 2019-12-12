@@ -17,11 +17,14 @@
     background-size: cover;   
     font-family: 'Kurale', serif;
     font-size: 1.1em;
+    background-attachment: fixed;
 
     &-main{
         align-content: center;
+        padding-top: 2em;
         min-height: calc(100vh - 170px);
         width: 100%;
+       
     }
 }
 
