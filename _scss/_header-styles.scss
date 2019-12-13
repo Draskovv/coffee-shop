@@ -40,8 +40,10 @@ nav{
     }
 
     a:hover, .current-page a{
-        background-color: #bfdaef;
-        color: #b90000;
+        //background-color: #bfdaef;
+
+        text-decoration: underline;
+        color: #000000;
     }
     .current-page a{
         font-style: normal;
