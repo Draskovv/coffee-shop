@@ -3,6 +3,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    background-color: rgba(231, 229, 229, 0.623);;
     ul{
         width: 80% ;
         display: flex;
@@ -11,8 +12,8 @@
         li{
            // padding: 1em;
             margin: 0.5em;
-            border: 3px solid rgba(0, 0, 0, 0.6);
-            border-radius: 20%;
+            // border: 3px solid rgba(0, 0, 0, 0.6);
+            // border-radius: 20%;
             font-size: 1.5em;
             width: 258.78px;
             height: 296.78px;
@@ -20,13 +21,13 @@
         }
     }
 
-    .item{
-        background-color: rgba(66, 66, 66, 0.219);//#bfdaef;
-        color: black;
+    // .item{
+    //     background-color: rgba(66, 66, 66, 0.219);//#bfdaef;
+    //     color: black;
 
-        &:hover{
-            background-color: rgba(231, 229, 229, 0.623);
-        }
+    // }
+    .item:hover{
+        background-color: rgba(231, 229, 229, 0.623);
     }
 
     img{
