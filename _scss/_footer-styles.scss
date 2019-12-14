@@ -35,8 +35,9 @@
         display: flex;
         font-size: 12px;
         font-size: 18px;
-       // margin: 1em;
-
+        @include bp(phone) {
+            font-size: 12px;
+        }
        a{
         padding: 1em;
        }
