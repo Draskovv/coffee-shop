@@ -1,4 +1,4 @@
 # Front-End Final Project
 
 ## Github Pages
-[Cofee shop](https://draskovv.github.io/coffee-shop/)
+[Coffee shop](https://draskovv.github.io/coffee-shop/)
