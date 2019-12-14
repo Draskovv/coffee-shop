@@ -19,6 +19,7 @@
     }
     @include bp(tablet) {
         position: relative;
+        height: 150px;
     }
 
     @include bp(phone) {
@@ -28,6 +29,7 @@
     @include bp(items) {
         position: relative;
     }
+
 
     & >ul{
         display: flex;
@@ -63,6 +65,11 @@
                 padding: 0 0.5em 0 0.5em;
             }
             padding: 1em 1em 1em 0;
+
+            @include bp(tablet) {
+                display: flex;
+                flex-direction: column;
+            }
         }
 
         a:hover{

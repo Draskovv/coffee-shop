@@ -9,7 +9,8 @@
                 <ul>
                     {% assign ordered_menu = site.pages | sort: "order" %}
                     {% for aPage in ordered_menu %}
-                        {% if aPage.title %}
+                        {% if aPage.title %}    
+                        <!-- ADD /coffee-shop     to href -->
                             <li class="site-menu-item {% if aPage.url == page.url %}current-page{% endif %}"><a href="/coffee-shop{{site.baseurl}}{{aPage.url}}">{{aPage.title}}</a></li>
                         {% endif %}
                     {% endfor %}
