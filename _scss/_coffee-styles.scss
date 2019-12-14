@@ -10,6 +10,11 @@
         display: flex;
         flex-wrap: wrap;
         padding: 2em;
+
+        @include bp(items){
+            justify-content: center;
+        }
+
         li{
             //padding: 0em;
             margin: 0.5em;
