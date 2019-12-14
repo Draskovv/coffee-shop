@@ -10,6 +10,21 @@
     padding: 1em 1em 1em 1em;
     bottom: 0;
 
+    @include bp(desktop) {
+        position: relative;
+    }
+
+    @include bp(mobile) {
+        position: relative;
+    }
+    @include bp(tablet) {
+        position: relative;
+    }
+
+    @include bp(phone) {
+        position: relative;
+    }
+
     & >ul{
         display: flex;
         font-size: 12px;
