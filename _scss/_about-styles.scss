@@ -6,8 +6,8 @@
 
     .about-info{
         display: flex;
-        @include bp(desktop) {
-            flex-direction: column;
+        @include bp(aboutPage) {
+           flex-direction: column;
             text-align: center;
         }
 
@@ -26,10 +26,10 @@
     }
 
     img{
-        @include bp(desktop) {
-            width: 70%;
-            padding:0;
-        }
+        // @include bp(desktop) {
+        //     width: 70%;
+        //     padding:0;
+        // }
         @include bp(mobile) {
             width: 90%;
             padding:0 0 4em 4em;
@@ -44,7 +44,7 @@
         padding: 4em;
     }
     .about >p{
-        @include bp(desktop) {
+        @include bp(aboutPage) {
             padding: 4em 4em 4em 4em;
         }
         @include bp(mobile) {

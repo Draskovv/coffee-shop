@@ -4,6 +4,7 @@ $breakpoints: (
   'mobile':     ( max-width: 1024px ),
   'desktop':    ( min-width: 1025px ),
   'large':      ( min-width: 1600px ),
+  'aboutPage':      ( max-width: 1500px ),
 ) !default;
 
 /// Mixin to manage responsive breakpoints
