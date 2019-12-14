@@ -4,6 +4,7 @@
     background-color: $baseColor;
     border-bottom: 3px solid black;
     position: fixed;
+    z-index: 999;
 
     @include bp(desktop) {
         height: 130px;
