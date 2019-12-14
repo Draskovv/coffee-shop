@@ -18,7 +18,7 @@
 
     @include bp(mobile)
     {
-        height: 230px;
+        height: 150px;
     }
 
 }
@@ -61,8 +61,19 @@ nav{
         display: flex;
         justify-content: space-evenly;
         @include bp(mobile) {
-            flex-direction: column;
-            padding-bottom: 2em;
+            //flex-direction: column;
+            flex-wrap: wrap;
+           padding-bottom: 5em;
+
+           
+            -webkit-columns: 2; /* Chrome, Safari, Opera */
+            -moz-columns: 2; /* Firefox */
+            columns: 2;
+
+            li{
+                padding-bottom: 0.3em;
+            }
+
         }
 
     }
@@ -75,7 +86,12 @@ nav{
         border-radius: 0.2em;
         font-weight: bold;
         font-style: italic;
+
     }
+    
+  
+
+
 
     a:hover, .current-page a{
         //background-color: #bfdaef;
