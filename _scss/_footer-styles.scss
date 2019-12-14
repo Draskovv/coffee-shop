@@ -25,6 +25,10 @@
         position: relative;
     }
 
+    @include bp(items) {
+        position: relative;
+    }
+
     & >ul{
         display: flex;
         font-size: 12px;
