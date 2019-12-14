@@ -5,6 +5,7 @@ $breakpoints: (
   'desktop':    ( min-width: 1025px ),
   'large':      ( min-width: 1600px ),
   'aboutPage':      ( max-width: 1500px ),
+  'header':      ( min-width: 1200px ),
 ) !default;
 
 /// Mixin to manage responsive breakpoints

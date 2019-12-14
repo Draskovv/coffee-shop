@@ -4,6 +4,21 @@
     background-color: $baseColor;
     border-bottom: 3px solid black;
     position: fixed;
+
+    @include bp(desktop) {
+        height: 130px;
+        padding-top: 1em;
+    }
+
+    @include bp(header) {
+        height: 130px;
+        padding-top: 1em;
+    }
+
+    @include bp(mobile)
+    {
+        height: 230px;
+    }
 }
 
 .hf-container {
@@ -14,6 +29,22 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+
+    @include bp(desktop) {
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+
+    @include bp(header) {
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+
+    @include bp(mobile)
+    {
+        flex-direction: column;
+        height: 230px;
+    }
 }
 
 .site-logo{
@@ -27,6 +58,11 @@ nav{
     ul {
         display: flex;
         justify-content: space-evenly;
+        @include bp(mobile) {
+            flex-direction: column;
+            padding-bottom: 2em;
+        }
+
     }
 
     a {
