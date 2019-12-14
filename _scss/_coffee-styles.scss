@@ -14,7 +14,7 @@
             justify-content: center;
         }
 
-        li{
+        li {
             //padding: 0em;
             margin: 0.5em;
             // border: 3px solid rgba(0, 0, 0, 0.6);
@@ -22,7 +22,22 @@
             font-size: 1.5em;
             width: 258.78px;
             height: 296.78px;
+
+          
         }
+
+        // li .dissapear {
+        //     transition-timing-function: ease-in;
+        //     transition: 0.2s;
+        //     transform: translateY(300%);
+        // }
+
+        // li .dissapear-removed .dissapear{
+        //     transition-timing-function: ease-out;
+        //     transition: 0.25s;
+        //     transform: translateY(0);
+          
+        // }
     }
 
     // .item{
