@@ -26,17 +26,25 @@
     }
 
     img{
-        // @include bp(desktop) {
-        //     width: 70%;
-        //     padding:0;
-        // }
+         @include bp(desktop) {
+           
+             padding:0 0 4em 0;
+         }
+         @include bp(about) {
+           
+            padding:0 0 4em 0;
+        }
         @include bp(mobile) {
             width: 90%;
-            padding:0 0 4em 4em;
+            padding:0 0 4em 0;
+        }
+        @include bp(phone) {
+            width: 100%;
+            padding:0 0 4em 0;
         }
         width: 700px;
         height: 400px;
-        padding: 0 0 4em 4em;
+        padding: 0 0 4em 0;
         
     }
 
