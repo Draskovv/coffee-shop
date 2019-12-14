@@ -45,6 +45,8 @@
     @include bp(mobile)
     {
         flex-direction: column;
+        padding-bottom: 1em;
+
         height: 230px;
     }
 }
@@ -70,9 +72,9 @@ nav{
             -moz-columns: 2; /* Firefox */
             columns: 2;
 
-            li{
-                padding-bottom: 0.3em;
-            }
+            // li{
+            //     padding-bottom: 0.3em;
+            // }
 
         }
 

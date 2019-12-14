@@ -12,6 +12,7 @@
 
     @include bp(aboutPage) {
         position: relative;
+
     }
 
     @include bp(mobile) {
@@ -24,10 +25,12 @@
 
     @include bp(phone) {
         position: relative;
+        
     }
 
     @include bp(items) {
         position: relative;
+        
     }
 
 
@@ -46,6 +49,10 @@
             padding: 1em;
            
             flex-direction: column;
+            @include bp(tablet) {
+                
+                padding: 1em 0 0 2em;
+            }
             
         }
 
@@ -53,7 +60,11 @@
             justify-content: space-between;
             li{
             padding:1em 1em 0 1em;
+           
+            }
+            @include bp(tablet) {
                 
+                padding: 0 3em 0 2em;
             }
 
         }
@@ -69,7 +80,12 @@
 
             @include bp(tablet) {
                 display: flex;
-                flex-direction: column;
+               // flex-direction: column;
+               flex-wrap: wrap;
+                -webkit-columns: 2; /* Chrome, Safari, Opera */
+                -moz-columns: 2; /* Firefox */
+                columns: 2;
+                padding: 1em 0 0 0;
             }
         }
 
