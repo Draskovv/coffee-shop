@@ -1,5 +1,5 @@
 .cakes{
-   // padding-top: 5em;
+   //padding-top: 10em;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -8,7 +8,6 @@
         width: 80% ;
         display: flex;
         flex-wrap: wrap;
-        padding: 2em;
 
         @include bp(items){
             justify-content: center;

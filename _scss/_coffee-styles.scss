@@ -9,7 +9,6 @@
         width: 80% ;
         display: flex;
         flex-wrap: wrap;
-        padding: 2em;
 
         @include bp(items){
             justify-content: center;
