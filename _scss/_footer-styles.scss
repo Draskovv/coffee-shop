@@ -80,29 +80,19 @@
 
             @include bp(tablet) {
                 display: flex;
-               // flex-direction: column;
                flex-wrap: wrap;
-                -webkit-columns: 2; /* Chrome, Safari, Opera */
-                -moz-columns: 2; /* Firefox */
+                -webkit-columns: 2;
+                -moz-columns: 2;
                 columns: 2;
                 padding: 1em 0 0 0;
             }
         }
 
         a:hover{
-            //background-color: #bfdaef;
-    
             text-decoration: underline;
             color: #000000;
         }
     }
 }
-
-
-// footer{
-//     margin: 0 auto;
-//     display: flex;
-//     padding: 1em 1em 1em 1em;
-// }
 
 

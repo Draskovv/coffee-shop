@@ -63,19 +63,11 @@ nav{
         display: flex;
         justify-content: space-evenly;
         @include bp(mobile) {
-            //flex-direction: column;
             flex-wrap: wrap;
-           padding-bottom: 5em;
-
-           
-            -webkit-columns: 2; /* Chrome, Safari, Opera */
-            -moz-columns: 2; /* Firefox */
+            padding-bottom: 5em;
+            -webkit-columns: 2;
+            -moz-columns: 2;
             columns: 2;
-
-            // li{
-            //     padding-bottom: 0.3em;
-            // }
-
         }
 
     }
@@ -96,8 +88,6 @@ nav{
 
 
     a:hover, .current-page a{
-        //background-color: #bfdaef;
-
         text-decoration: underline;
         color: #000000;
     }
