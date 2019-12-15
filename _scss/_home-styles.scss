@@ -1,4 +1,4 @@
-.home{
+.home{   
      padding: 10em 5em 0em 5em;
 
     .container{
@@ -59,10 +59,12 @@
               font-weight: 300;
               font-family: 'Kurale', serif;
               letter-spacing: 0.2px;
+              transition: all 0.3s ease-out;
             }
             
             &:hover{
               backface-visibility: hidden;
+              transform: scale(1.15, 1.15);
               opacity: 1;
               
               span{
